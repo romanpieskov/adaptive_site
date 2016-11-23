@@ -1,0 +1,56 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+
+}
+body input:required:valid,
+body textarea:required:valid {
+
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+
+.top_line {
+	padding: 20px;
+	color: #fff;
+	background-color: #43484C;
+}
+
+.top_line a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.top_line a:hover {
+	text-decoration: none;
+}
+
+.soc_links {
+	margin: 0px 5px;
+	float: right;
+	font-size: 26px;
+}
+
+.auth_button {
+	border: none;
+	background-color: transparent;
+	font-size: 26px;
+}
