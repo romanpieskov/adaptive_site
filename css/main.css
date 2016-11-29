@@ -28,6 +28,10 @@ body {
 	font-size: 16px;
 }
 
+.header {
+
+}
+
 .top_line {
 	padding: 20px;
 	color: #fff;
@@ -43,6 +47,10 @@ body {
 	text-decoration: none;
 }
 
+.header_links {
+	float: right;
+}
+
 .soc_links {
 	margin: 0px 5px;
 	float: right;
@@ -53,4 +61,78 @@ body {
 	border: none;
 	background-color: transparent;
 	font-size: 26px;
+}
+
+.user {
+	width: 100%;
+	position: absolute;
+	background: #000;
+	z-index: 2;
+}
+
+.float {
+	float: left;
+}
+
+.logo {
+	text-align: center;
+	background-color: #4aaad2;
+	font-family: "NautilusPompiliusRegular";
+	font-size: 42px;
+}
+
+.logo a {
+	display: block;
+	padding: 20px 0px;
+	color: #fff;
+}
+
+.bottom-line {
+	text-align: left;
+	font-family: "RobotoRegular", sans-serif;
+	background-color: #3797bf;
+	color: #fff;
+	position: relative;
+}
+
+.menu {
+	float: left;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.menu li {
+	display: inline-block;
+}
+
+.menu a {
+	display: block;
+	padding: 13px;
+}
+
+.menu a:hover {
+background-color: #2787af;
+}
+
+.contacts {
+	float: right;
+	font-size: 30px;
+	padding: 5px 15px;
+	background-color: #2787af;
+	z-index: 12;
+}
+
+.button_menu {
+	float: left;
+	padding: 7px 12px;
+	border: none;
+	background-color: transparent;
+	font-size: 26px;
+	z-index: 0;
 }

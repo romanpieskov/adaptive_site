@@ -13,7 +13,24 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
   .user {
+      display: none;
+      width: 100%;
+      padding: 10px;
+      margin-top: 59px;
+    	position: absolute;
+      top:0;
+      left:0;
+    	background-color: #585d61;
+  }
+  .menu {
+    width: 100%;
     display: none;
+    margin-top: 52px;
+    position: absolute;
+    background-color: #3797bf;
+  }
+  .menu li {
+  	display: block;
   }
 }
 
@@ -44,7 +61,16 @@
 @media only screen and (min-width : 768px) {
 .user {
   display: block !important;
+  width: 90%;
+  margin-top: 0px;
+  position: absolute;
+  background: none;
 }
+
+.button_menu {
+  display: none;
+}
+
 }
 
 /* Medium Devices, Desktops */
