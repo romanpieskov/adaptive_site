@@ -7,7 +7,13 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+.text_order {
+  text-align: center;
+}
+.button_order {
+  float: none;
+  margin: 15px auto;
+}
 }
 
 /* Small Devices, Tablets */
@@ -16,7 +22,7 @@
       display: none;
       width: 100%;
       padding: 10px;
-      margin-top: 59px;
+      margin-top: 57px;
     	position: absolute;
       top:0;
       left:0;
@@ -36,12 +42,25 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+  .right_aside {
+    padding: 15px 0px;
+  }
+  .right_aside ul {
+    margin: 0px 0px;
+    padding: 0px 5px 0px 20px;
+  }
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+  .contacts {
+      font-size: 28px;
+  }
 
+  .button_menu {
+  	padding: 7px 4px;
+
+  }
 }
 
 
@@ -71,6 +90,9 @@
   display: none;
 }
 
+.menu {
+  display: block !important;
+}
 }
 
 /* Medium Devices, Desktops */
